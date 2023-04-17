@@ -1,0 +1,38 @@
+.by-aditya-sethi,
+.thank-you {
+  position: absolute;
+  top: 265px;
+  left: 155px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1610px;
+  height: 551px;
+}
+.by-aditya-sethi {
+  top: 785px;
+  left: 71px;
+  font-size: var(--font-size-21xl);
+  font-weight: 300;
+  width: 1777px;
+  height: 30px;
+}
+.vector-icon1 {
+  position: absolute;
+  top: 48px;
+  left: 640px;
+  width: 639px;
+  height: 217px;
+}
+.slide-169-60 {
+  position: absolute;
+  background-color: var(--color-white);
+  left: 50%; transform: translateX(-35%);
+  height: 100%; aspect-ratio: 1920 / 1080;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-231xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

@@ -1,0 +1,158 @@
+.vector-icon {
+  position: absolute;
+  top: 62px;
+  left: 790px;
+  width: 340px;
+  height: 75px;
+}
+.slide-169-54-child {
+  position: absolute;
+  top: 978px;
+  left: 853px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 213px;
+  height: 66px;
+  cursor: pointer;
+}
+.done {
+  position: absolute;
+  top: 974px;
+  left: 864px;
+  font-size: var(--font-size-13xl);
+  font-weight: 300;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 74px;
+}
+.slide-169-54-item {
+  position: absolute;
+  height: 3.01%;
+  width: 1.88%;
+  top: 91.97%;
+  right: 45.96%;
+  bottom: 5.02%;
+  left: 52.16%;
+  border-radius: var(--br-12xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle-div,
+.slide-169-54-child1,
+.slide-169-54-child2,
+.slide-169-54-inner {
+  position: absolute;
+  top: 231px;
+  left: 660px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightcyan);
+  width: 600px;
+  height: 136px;
+}
+.rectangle-div,
+.slide-169-54-child1,
+.slide-169-54-child2 {
+  top: 391px;
+  height: 137px;
+}
+.slide-169-54-child1,
+.slide-169-54-child2 {
+  top: 553px;
+}
+.slide-169-54-child2 {
+  top: 713px;
+  height: 136px;
+}
+.slide-169-54-child3,
+.slide-169-54-child4,
+.slide-169-54-child5,
+.slide-169-54-child6 {
+  position: absolute;
+  top: 244px;
+  left: 674px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkseagreen-100);
+  width: 100px;
+  height: 110px;
+}
+.slide-169-54-child4,
+.slide-169-54-child5,
+.slide-169-54-child6 {
+  top: 405px;
+  height: 109px;
+}
+.slide-169-54-child5,
+.slide-169-54-child6 {
+  top: 566px;
+}
+.slide-169-54-child6 {
+  top: 726px;
+  height: 110px;
+}
+.car-icon,
+.delete-icon,
+.food-icon,
+.home-page-icon {
+  position: absolute;
+  top: 260px;
+  left: 688px;
+  width: 73px;
+  height: 79px;
+  object-fit: cover;
+}
+.car-icon,
+.delete-icon,
+.food-icon {
+  top: 420px;
+  height: 80px;
+}
+.delete-icon,
+.food-icon {
+  top: 580px;
+}
+.delete-icon {
+  top: 741px;
+  height: 79px;
+}
+.food,
+.household,
+.transport,
+.waste {
+  position: absolute;
+  top: 244px;
+  left: 824px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  width: 411px;
+  height: 106px;
+}
+.food,
+.transport,
+.waste {
+  top: 406px;
+  height: 107px;
+}
+.food,
+.waste {
+  top: 567px;
+}
+.waste {
+  top: 727px;
+}
+.slide-169-54 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

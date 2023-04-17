@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./slide-169-33.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@300;400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Utsaah:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="slide-169-33" id="Background">
+      <div class="you-owe-trees-container6">
+        <span class="you-owe-trees-container7"
+          ><span class="lets-work-towards">आपका </span
+          ><span class="carbon-footprint1">कार्बन पदचिह्न</span
+          ><span class="lets-work-towards"> है</span></span
+        >
+      </div>
+      <div class="you-owe-trees-container8">
+        <span class="carbon-footprint1">टन</span
+        ><span class="lets-work-towards">/वर्ष</span>
+      </div>
+      <div class="x1" id="Result">X</div>
+      <img class="vector-icon13" alt="" src="./public/vector1.svg" /><img
+        class="slide-169-33-child"
+        alt=""
+        src="./public/vector-1221.svg"
+        id="vectorIcon"
+      /><img
+        class="slide-169-33-item"
+        alt=""
+        src="./public/vector-125.svg"
+        id="vectorIcon1"
+      />
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script>
+      var vectorIcon = document.getElementById("vectorIcon");
+      if (vectorIcon) {
+        vectorIcon.addEventListener("click", function (e) {
+          window.location.href = "./slide-169-36.html";
+        });
+      }
+      
+      var vectorIcon1 = document.getElementById("vectorIcon1");
+      if (vectorIcon1) {
+        vectorIcon1.addEventListener("click", function (e) {
+          window.location.href = "./slide-169-16.html";
+        });
+      }
+
+      var result = Math.round(sessionStorage.getItem("Result1") * 1000) / 1000
+      document.getElementById("Result").innerText = result
+
+      if(result > 5) document.getElementById("Background").style.background = "#7F1819"
+      else if(result > 1.8) document.getElementById("Background").style.background = "#262626"
+      else document.getElementById("Background").style.background = "#3E554B"
+      </script>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+.vector-icon7 {
+  position: absolute;
+  top: 62px;
+  left: 790px;
+  width: 340px;
+  height: 75px;
+}
+.component-15-child,
+.component-15-child1,
+.component-15-inner,
+.component-15-item {
+  position: absolute;
+  height: 93.87%;
+  width: 18.71%;
+  top: 0;
+  right: 76.88%;
+  bottom: 6.13%;
+  left: 4.42%;
+  background-color: var(--color-darkseagreen-200);
+}
+.component-15-child1,
+.component-15-inner,
+.component-15-item {
+  right: 4.42%;
+  left: 76.88%;
+}
+.component-15-child1,
+.component-15-inner {
+  top: 6.13%;
+  right: 0;
+  bottom: 0;
+  left: 81.29%;
+  background-color: var(--color-darkseagreen-100);
+}
+.component-15-child1 {
+  top: 0;
+  right: 81.29%;
+  bottom: 6.13%;
+  left: 0;
+}
+.component-15 {
+  position: absolute;
+  top: -81px;
+  left: -93px;
+  width: 2106px;
+  height: 1322px;
+}
+.donate-to-plant {
+  font-weight: 300;
+}
+.click-to-donate {
+  font-weight: 600;
+}
+.donate-to-plant-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.donate-to-plant-container {
+  position: absolute;
+  top: 199px;
+  left: 515px;
+  display: flex;
+  align-items: center;
+  width: 880px;
+}
+.httpswwwgreenyatraorgdon,
+.per-tree {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.per-tree {
+  top: 1052px;
+  left: 646px;
+  font-size: 13px;
+  font-weight: 300;
+  width: 628px;
+}
+.httpswwwgreenyatraorgdon {
+  top: 393px;
+  left: 836px;
+  font-size: var(--font-size-45xl);
+  text-decoration: underline;
+  color: inherit;
+  width: 532px;
+  height: 243px;
+}
+.rally-logo-1-icon {
+  position: absolute;
+  top: 388px;
+  left: 517px;
+  width: 245px;
+  height: 243px;
+  object-fit: cover;
+}
+.carbon-neutral-plan {
+  position: absolute;
+  top: 962px;
+  left: 744px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 432px;
+  height: 52px;
+}
+.slide-169-39-child {
+  position: absolute;
+  top: 954px;
+  left: 730px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 460px;
+  height: 69px;
+  cursor: pointer;
+}
+.dont-want-to-container,
+.x1890 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.x1890 {
+  top: 666px;
+  left: 643px;
+  font-size: 128px;
+  font-weight: 600;
+  justify-content: center;
+  width: 633px;
+  height: 126px;
+}
+.dont-want-to-container {
+  top: 851px;
+  left: 532px;
+  width: 856px;
+  height: 63px;
+}
+.ce1085676b-1-icon {
+  position: absolute;
+  top: 352px;
+  left: 802px;
+  width: 600px;
+  height: 314px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.slide-169-39 {
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-white);
+  height: 100%; aspect-ratio: 1920 / 1080;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

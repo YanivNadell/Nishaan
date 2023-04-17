@@ -1,0 +1,65 @@
+.x452 {
+  position: absolute;
+  top: 322px;
+  left: 671px;
+  font-weight: 600;
+}
+.slide-169-35-child,
+.slide-169-35-item {
+  position: absolute;
+  height: 4.03%;
+  width: 2.6%;
+  top: 88.82%;
+  right: 23.52%;
+  bottom: 7.15%;
+  left: 73.88%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.slide-169-35-item {
+  right: 72.94%;
+  left: 24.46%;
+}
+.vector-icon11 {
+  position: absolute;
+  top: 62px;
+  left: 790px;
+  width: 340px;
+  height: 75px;
+}
+.trees2 {
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+}
+.need-to-be2 {
+  font-weight: 300;
+}
+.trees-need-to-be-planted2 {
+  margin: 0;
+}
+.your-carbon-emissions2 {
+  font-weight: 300;
+  font-family: var(--font-open-sans);
+}
+.to-offset-your-carbon-emission2 {
+  margin: 0;
+  font-size: var(--font-size-29xl);
+}
+.you-owe-trees-container2 {
+  position: absolute;
+  top: 662px;
+  left: 532px;
+  font-size: var(--font-size-45xl);
+}
+.slide-169-35 {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-231xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}

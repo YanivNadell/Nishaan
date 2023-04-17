@@ -1,0 +1,118 @@
+.slide-169-57-child,
+.slide-169-57-item {
+  position: absolute;
+  top: 231px;
+  left: 660px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightcyan);
+  width: 600px;
+  height: 136px;
+}
+.slide-169-57-item {
+  top: 244px;
+  left: 674px;
+  background-color: var(--color-darkseagreen-100);
+  width: 100px;
+  height: 110px;
+}
+.component-16-child6,
+.component-16-child7,
+.component-16-child8,
+.component-16-child9 {
+  position: absolute;
+  height: 93.87%;
+  width: 18.71%;
+  top: 0;
+  right: 76.88%;
+  bottom: 6.13%;
+  left: 4.42%;
+  background-color: var(--color-darkseagreen-200);
+}
+.component-16-child7,
+.component-16-child8,
+.component-16-child9 {
+  right: 4.42%;
+  left: 76.88%;
+}
+.component-16-child8,
+.component-16-child9 {
+  top: 6.13%;
+  right: 0;
+  bottom: 0;
+  left: 81.29%;
+  background-color: var(--color-darkseagreen-100);
+}
+.component-16-child9 {
+  top: 0;
+  right: 81.29%;
+  bottom: 6.13%;
+  left: 0;
+}
+.component-162,
+.vector-icon4 {
+  position: absolute;
+  top: -81px;
+  left: -93px;
+  width: 2106px;
+  height: 1322px;
+}
+.vector-icon4 {
+  top: 62px;
+  left: 790px;
+  width: 340px;
+  height: 75px;
+  cursor: pointer;
+}
+.slide-169-57-inner {
+  position: absolute;
+  top: 423px;
+  left: 449px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-lightcyan);
+  width: 1022px;
+  height: 711px;
+}
+.transport1 {
+  position: absolute;
+  top: 245px;
+  left: 822px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  width: 411px;
+  height: 107px;
+}
+.car-icon1 {
+  position: absolute;
+  top: 259px;
+  left: 686px;
+  width: 73px;
+  height: 80px;
+  object-fit: cover;
+}
+.personal-vehicle-usage {
+  margin: 0;
+}
+.personal-vehicle-usage-container {
+  position: absolute;
+  top: 463px;
+  left: 489px;
+  font-size: var(--font-size-33xl);
+  font-weight: 300;
+  text-align: center;
+  display: inline-block;
+  width: 943px;
+  height: 566px;
+}
+.slide-169-57 {
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--color-white);
+  height: 100%; aspect-ratio: 1920 / 1080;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}

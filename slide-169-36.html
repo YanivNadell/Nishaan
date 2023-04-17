@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./slide-169-36.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@300;400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Utsaah:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="slide-169-36" id="Background">
+      <div class="x451" id="Trees">X*45</div>
+      <img class="vector-icon10" alt="" src="./public/vector1.svg" /><img
+        class="slide-169-36-child"
+        alt=""
+        src="./public/vector-1221.svg"
+        id="vectorIcon"
+      /><img
+        class="slide-169-36-item"
+        alt=""
+        src="./public/vector-125.svg"
+        id="vectorIcon1"
+      />
+      <div class="you-owe-trees-container1">
+        <p class="trees-need-to-be-planted1">
+          <span
+            ><span class="trees1">TREES</span
+            ><span class="need-to-be1"> NEED TO BE PLANTED </span></span
+          >
+        </p>
+        <p class="to-offset-your-carbon-emission1">
+          <span
+            ><span class="need-to-be1">TO </span
+            ><span class="trees1">OFFSET</span
+            ><span class="your-carbon-emissions1">
+              YOUR CARBON EMISSIONS</span
+            ></span
+          >
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var vectorIcon = document.getElementById("vectorIcon");
+      if (vectorIcon) {
+        vectorIcon.addEventListener("click", function (e) {
+          window.location.href = "./slide-169-38.html";
+        });
+      }
+      
+      var vectorIcon1 = document.getElementById("vectorIcon1");
+      if (vectorIcon1) {
+        vectorIcon1.addEventListener("click", function (e) {
+          window.location.href = "./slide-169-33.html";
+        });
+      }
+
+      var result = Math.round(sessionStorage.getItem("Result1"))
+      document.getElementById("Trees").innerText = result * 45
+
+      if(result > 5) document.getElementById("Background").style.background = "#6C4242"
+      else if(result > 1.8) document.getElementById("Background").style.background = "#262626"
+      else document.getElementById("Background").style.background = "#3E554B"
+      </script>
+  </body>
+</html>

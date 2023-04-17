@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./slide-169-2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@300;400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Utsaah:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="slide-169-2">
+      <div class="component-12">
+        <div class="please-select-your">Please select your language</div>
+        <div class="div">कृपया अपनी भाषा चुनें</div>
+      </div>
+      <div class="vector14"></div>
+      <div class="component-11">
+        <div class="property-1default" id="property1DefaultContainer">
+          <div class="property-1default-child"></div>
+          <div class="english">ENGLISH</div>
+        </div>
+        <div class="property-1hindi" id="property1HindiContainer">
+          <div class="property-1default-child"></div>
+          <div class="div1">हिन्दी</div>
+        </div>
+      </div>
+      <div class="component-1516">
+        <div class="component-15-child62"></div>
+        <div class="component-15-child63"></div>
+        <div class="component-15-child64"></div>
+        <div class="component-15-child65"></div>
+      </div>
+      <img class="vector-icon29" alt="" src="./public/vector.svg" />
+    </div>
+
+    <script>
+      var property1DefaultContainer = document.getElementById(
+        "property1DefaultContainer"
+      );
+        property1DefaultContainer.addEventListener("click", function (e) {
+          console.log(1)
+          window.location.href = "./slide-169-3.html";
+        });
+      
+      var property1HindiContainer = document.getElementById(
+        "property1HindiContainer"
+      );
+      if (property1HindiContainer) {
+        property1HindiContainer.addEventListener("click", function (e) {
+          window.location.href = "./Hindi/slide-169-3.html";
+        });
+      }
+      </script>
+  </body>
+</html>

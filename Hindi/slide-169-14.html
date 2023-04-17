@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./slide-169-14.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@300;400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Utsaah:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="slide-169-14">
+      <div class="vector2"></div>
+      <div class="component-154">
+        <div class="component-15-child14"></div>
+        <div class="component-15-child15"></div>
+        <div class="component-15-child16"></div>
+        <div class="component-15-child17"></div>
+      </div>
+      <div class="slide-169-14-child"></div>
+      <div class="slide-169-14-item"></div>
+      <img class="download-1-icon2" alt="" src="./public/download-1@2x.png" />
+      <div class="consider-how-much-container">
+        <span class="consider-how-much-container1"
+          ><span class="consider-how-much">आप प्रति सप्ताह कितना </span
+          ><span class="waste-you-recycle1">कचरा रीसायकल</span
+          ><span class="consider-how-much"> करते हैं </span></span
+        >
+      </div>
+      <img
+        class="slide-169-14-inner"
+        alt=""
+        src="./public/vector-1222.svg"
+        id="vectorIcon"
+      /><img
+        class="slide-169-14-child1"
+        alt=""
+        src="./public/vector-1251.svg"
+        id="vectorIcon1"
+      />
+      <div class="mcq-panel-en2">
+        <div class="component-42">
+          <div class="radio-button18">रीसाइक्लिंग के लिए अलग डब्बा</div>
+          <img class="component-4-inner" id="Btn1" alt="" src="./public/border1.svg" />
+        </div>
+        <div class="component-42">
+          <img class="component-4-inner" id="Btn2" alt="" src="./public/border1.svg" />
+          <div class="radio-button18">ठिक थाक रीसाइक्लिंग</div>
+          
+        </div>
+        <div class="component-42">
+          <img class="component-4-inner" id="Btn3" alt="" src="./public/border1.svg" />
+          <div class="radio-button18">न्यूनतम रीसाइक्लिंग</div>
+          
+        </div>
+        <div class="component-42">
+          <img class="component-4-inner" id="Btn4" alt="" src="./public/border1.svg" />
+          <div class="radio-button18">बिल्कुल रीसाइक्लिंग नहीं करते</div>
+          
+        </div>
+        <div class="component-52">
+          <img class="component-4-inner" alt="" src="./public/border1.svg" />
+          <div class="radio-button18">Solar</div>
+          
+        </div>
+        <div class="component-52">
+          <img class="component-4-inner" alt="" src="./public/border1.svg" />
+          <div class="radio-button18">Cow Dung</div>
+          
+        </div>
+        <div class="component-52">
+          <img class="component-4-inner" alt="" src="./public/border1.svg" />
+          <div class="radio-button18">caught in a landslide</div>
+          
+        </div>
+        <div class="component-52">
+          <img class="component-4-inner" alt="" src="./public/border1.svg" />
+          <div class="radio-button18">no escape</div>
+          
+        </div>
+        <div class="component-52">
+          <img class="component-4-inner" alt="" src="./public/border1.svg" />
+          <div class="radio-button18">from reality</div>
+          
+        </div>
+      </div>
+      <img class="vector-icon17" alt="" src="./public/vector.svg" />
+    </div>
+
+    <script>
+      var vectorIcon = document.getElementById("vectorIcon");
+      if (vectorIcon) {
+        vectorIcon.addEventListener("click", function (e) {
+          window.location.href = "./slide-169-15.html";
+        });
+      }
+      
+      var vectorIcon1 = document.getElementById("vectorIcon1");
+      if (vectorIcon1) {
+        vectorIcon1.addEventListener("click", function (e) {
+          window.location.href = "./slide-169-13.html";
+        });
+      }
+
+      //ellipse-1.svg - checked
+      //border1.svg - unchecked
+      
+      var Btn1 = document.getElementById("Btn1");
+      Btn1.src = "./public/ellipse-1.svg"
+      sessionStorage.setItem('Q10', 1)
+      Btn1.addEventListener("click", function (e) {
+        Btn1.src = "./public/ellipse-1.svg"
+        Btn2.src = "./public/border1.svg"
+        Btn3.src = "./public/border1.svg"
+        Btn4.src = "./public/border1.svg"
+
+        sessionStorage.setItem('Q10', 1)
+      });
+      var Btn2 = document.getElementById("Btn2");
+      Btn2.addEventListener("click", function (e) {
+        Btn1.src = "./public/border1.svg"
+        Btn2.src = "./public/ellipse-1.svg"
+        Btn3.src = "./public/border1.svg"
+        Btn4.src = "./public/border1.svg"
+
+        sessionStorage.setItem('Q10', 2)
+      });
+      var Btn3 = document.getElementById("Btn3");
+      Btn3.addEventListener("click", function (e) {
+        Btn1.src = "./public/border1.svg"
+        Btn2.src = "./public/border1.svg"
+        Btn3.src = "./public/ellipse-1.svg"
+        Btn4.src = "./public/border1.svg"
+
+        sessionStorage.setItem('Q10', 3)
+      });
+      var Btn4 = document.getElementById("Btn4");
+      Btn4.addEventListener("click", function (e) {
+        Btn1.src = "./public/border1.svg"
+        Btn2.src = "./public/border1.svg"
+        Btn3.src = "./public/border1.svg"
+        Btn4.src = "./public/ellipse-1.svg"
+
+        sessionStorage.setItem('Q10', 4)
+      });
+      </script>
+  </body>
+</html>

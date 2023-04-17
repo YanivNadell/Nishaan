@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./slide-169-39.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@300;400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Utsaah:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="slide-169-39">
+      <img class="vector-icon7" alt="" src="./public/vector.svg" />
+      <div class="component-15">
+        <div class="component-15-child"></div>
+        <div class="component-15-item"></div>
+        <div class="component-15-inner"></div>
+        <div class="component-15-child1"></div>
+      </div>
+      <div class="donate-to-plant-container">
+        <span class="donate-to-plant-container1"
+          ><span class="donate-to-plant"
+            >Donate to plant trees to reduce carbon footprint, fight climate
+            change, and produce oxygen. Fast, easy, and accessible from
+            anywhere. </span
+          ><span class="click-to-donate">Click to donate now.</span></span
+        >
+      </div>
+      <div class="per-tree">*@₹42 per tree</div>
+      ><img
+        class="rally-logo-1-icon"
+        alt=""
+        src="./public/rallylogo-1@2x.png"
+      />
+      <div class="carbon-neutral-plan">CARBON NEUTRAL PLAN</div>
+      <div class="slide-169-39-child" id="rectangle4"></div>
+      <div class="x1890" id="HowMuchToPay">₹X*1,890*</div>
+      <div class="dont-want-to-container">
+        <span class="donate-to-plant-container1"
+          ><span class="click-to-donate">Don’t want to donate</span
+          ><span class="donate-to-plant"
+            >? No problem, Try out our custom tailored plan for you to reduce
+            your carbon footprint.</span
+          ></span
+        >
+      </div>
+      <img
+        class="ce1085676b-1-icon" id="DonateWebsite"
+        alt=""
+        src="./public/ce1085676b-1@2x.png"
+      />
+    </div>
+
+    <script>
+      var rectangle4 = document.getElementById("rectangle4");
+      if (rectangle4) {
+        rectangle4.addEventListener("click", function (e) {
+          window.location.href = "./slide-169-55.html";
+        });
+      }
+
+      var DonateWebsite = document.getElementById("DonateWebsite");
+      if (DonateWebsite) {
+        DonateWebsite.addEventListener("click", function (e) {
+          window.location.href = "https://www.greenyatra.org/donate.php";
+        });
+      }
+
+      //HowMuchToPay
+      var result = Math.round(sessionStorage.getItem("Result1"))
+      function numberWithCommas(x) {
+          return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+      document.getElementById("HowMuchToPay").innerText = "₹" + numberWithCommas(result * 1890) + "*"
+      </script>
+  </body>
+</html>
